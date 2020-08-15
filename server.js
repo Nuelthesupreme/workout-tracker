@@ -5,7 +5,7 @@ const apiRoutes = require("./src/routes/api-routes");
 const htmlRoutes = require("./src/routes/html-routes");
 
 const DB_URI =
-  process.env.MONGODB_URI || "mongodb://localhost/"
+  process.env.MONGODB_URI || "mongodb://localhost/workout"
   ""
 const options = {
   useUnifiedTopology: true,
