@@ -10,6 +10,7 @@ const getWorkouts = async (req, res) => {
   res.status(201).send(response);
 };
 
+// post workout 
 const postWorkouts = async (req, res) => {
   const exercise = new Workout({
     name: req.body.name,
